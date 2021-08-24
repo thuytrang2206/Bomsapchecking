@@ -370,7 +370,7 @@ namespace BOM_SAP_CHECKING
             app.Columns.AutoFit();
             app.Visible = true;
         }
-
+ 
         private void FormMain_Load(object sender, EventArgs e)
         {
             cbobom1.Text = Properties.Settings.Default.BOM1;
